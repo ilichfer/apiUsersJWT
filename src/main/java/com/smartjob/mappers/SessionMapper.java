@@ -1,12 +1,8 @@
 package com.smartjob.mappers;
 
-import com.smartjob.dto.RequestUserDTO;
-import com.smartjob.dto.UserDTO;
 import com.smartjob.dto.UserSessionDTO;
-import com.smartjob.model.User;
 import com.smartjob.model.UserSession;
 import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
 import org.mapstruct.factory.Mappers;
 
 import java.util.List;
