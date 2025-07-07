@@ -69,3 +69,35 @@ SmartJob es una API RESTful desarrollada en Java con Spring Boot, diseñada para
     }
   ]
 }
+
+## Diagrama de la solucion
+
++-------------------+
+|   UserController  |
++-------------------+
+          |
+          v
++-------------------+
+|   IUserService    |
++-------------------+
+          |
+          v
++-------------------+
+|  UserServiceImpl  |
++-------------------+
+          |
+          v
++-------------------+
+|   UserSession     |
+|   User            |
++-------------------+
+          |
+          v
++-------------------+
+|   Repositorios    |
++-------------------+
+          |
+          v
++-------------------+
+|   Base de Datos   |
++-------------------+
