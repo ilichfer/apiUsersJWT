@@ -30,6 +30,7 @@ public class UserSession {
     @Temporal(TemporalType.TIMESTAMP)
     private Date  last_login;
 
+    @Column(length = 500)
     private String  token;
 
     private Boolean  isActive;
