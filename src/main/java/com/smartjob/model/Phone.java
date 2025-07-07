@@ -3,8 +3,6 @@ package com.smartjob.model;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 
-import java.util.List;
-
 
 @Entity
 @Table(name = "phone")

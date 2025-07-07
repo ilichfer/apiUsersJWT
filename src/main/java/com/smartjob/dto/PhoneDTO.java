@@ -1,10 +1,5 @@
 package com.smartjob.dto;
 
-import com.smartjob.model.Phone;
-import com.smartjob.model.User;
-
-import java.util.List;
-
 public class PhoneDTO {
     private String numbrer;
     private String cityCode;

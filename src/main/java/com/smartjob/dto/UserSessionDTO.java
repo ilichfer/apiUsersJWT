@@ -1,6 +1,5 @@
 package com.smartjob.dto;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
 import com.smartjob.model.User;
 
 import java.util.Date;
